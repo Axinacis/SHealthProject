@@ -1,7 +1,11 @@
 const fs = require('fs');
 
-const data = fs.readFile('./test/testFile.json', 'utf-8', ()=>{});
+const data = fs.readFileSync('./test.txt', 'utf-8');
+console.log(data)
+const dataJSON = JSON.parse(data)
+console.log(dataJSON)
 
+/*
 console.log(data);
 
 fs.writeFile('test.txt', data, 'utf-8', error => {
@@ -9,3 +13,4 @@ fs.writeFile('test.txt', data, 'utf-8', error => {
     console.log('Data saved to test file')
 });
 
+*/

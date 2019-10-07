@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8091d4c-696e-4059-9429-07b0b80e641c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/server/JSONprocessing/readFolder.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/JSONprocessing/test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/JSONprocessing/test.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/JSONprocessing/test2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/JSONprocessing/readFilesAsync.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/JSONprocessing/test3.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/JSONprocessing/importHealthJSON.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/JSONprocessing/importHealthJSON.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/JSONprocessing/readAllFiles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/JSONprocessing/readFolder.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/JSONprocessing/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/JSONprocessing/test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/JSONprocessing/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/server/JSONprocessing/readFilesS.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/JSONprocessing/test2.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/JSONprocessing/test2.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -75,17 +76,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.test2.js">
+  <component name="RunManager" selected="Node.js.test3.js">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
     <configuration name="importHealthJSON.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/server/JSONprocessing/importHealthJSON.js" working-dir="$PROJECT_DIR$/server/JSONprocessing">
       <method v="2" />
     </configuration>
-    <configuration name="readFolder.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/server/JSONprocessing/readFolder.js" working-dir="$PROJECT_DIR$/server/JSONprocessing">
+    <configuration name="readFilesAsync.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/server/JSONprocessing/readFilesAsync.js" working-dir="$PROJECT_DIR$/server/JSONprocessing">
       <method v="2" />
     </configuration>
     <configuration name="test2.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/server/JSONprocessing/test2.js" working-dir="$PROJECT_DIR$/server/JSONprocessing">
+      <method v="2" />
+    </configuration>
+    <configuration name="test3.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/server/JSONprocessing/test3.js" working-dir="$PROJECT_DIR$/server/JSONprocessing">
       <method v="2" />
     </configuration>
     <configuration name="test.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/server/JSONprocessing/test.js" working-dir="$PROJECT_DIR$/server/JSONprocessing">
@@ -103,10 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.test2.js" />
-        <item itemvalue="Node.js.test.js" />
+        <item itemvalue="Node.js.test3.js" />
         <item itemvalue="Node.js.importHealthJSON.js" />
-        <item itemvalue="Node.js.readFolder.js" />
+        <item itemvalue="Node.js.test.js" />
+        <item itemvalue="Node.js.test2.js" />
+        <item itemvalue="Node.js.readFilesAsync.js" />
       </list>
     </recent_temporary>
   </component>
@@ -121,7 +126,7 @@
       <option name="presentableId" value="Default" />
       <updated>1570014588648</updated>
       <workItem from="1570014592384" duration="2807000" />
-      <workItem from="1570428317128" duration="10322000" />
+      <workItem from="1570428317128" duration="14539000" />
     </task>
     <task id="LOCAL−00001" summary="Initial structure">
       <created>1570014874678</created>
@@ -135,7 +140,13 @@
       <option name="presentableId" value="LOCAL−00002" />
       <updated>1570018083657</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL−00003" summary="fiddling w read/write file">
+      <created>1570439004745</created>
+      <option name="number" value="LOCAL−00003" />
+      <option name="presentableId" value="LOCAL−00003" />
+      <updated>1570439004745</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,6 +167,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial structure" />
+    <MESSAGE value="fiddling w read/write file" />
+    <option name="LAST_COMMIT_MESSAGE" value="fiddling w read/write file" />
   </component>
 </project>

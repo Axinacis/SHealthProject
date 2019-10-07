@@ -1,15 +1,39 @@
 const fs = require('fs');
-const readFolder = require('./readFolder');
+const readFiles = require('./readFilesAsync');
 
-const data = {};
+const directory = 'C:\\Users\\19116304\\IdeaProjects\\healthproject\\server\\JSONprocessing\\test\\';
+const data = {}
 
-readFolder('C:\\Users\\19116304\\IdeaProjects\\healthproject\\server\\JSONprocessing\\test\\', async (filename, content) => {
-    data[filename] = await JSON.parse(content);
-    // console.log(data)
-}, e => {
-    throw e
+async function main() {
+    await readFiles(directory, function(filename, content) {
+        data[filename] = content;
+        console.log(data)
+    }, function(err) {
+        throw err;
+    });
+
+    fs.writeFile('test.txt', JSON.stringify(data), 'utf-8', error => {
+        if (error) throw error;
+        console.log('Data saved to test file')
+    });
+}
+
+main()
+
+/*
+readFiles(directory, function(filename, content) {
+    data[filename] = content;
+    console.log(data)
+}, function(err) {
+    throw err;
 });
 
+console.log(data)
+
+fs.writeFile('test.txt', JSON.stringify(data), 'utf-8', error => {
+    if (error) throw error;
+    console.log('Data saved to test file')
+});*/
 
 /*fs.writeFile('test.txt', JSON.stringify(data), 'utf-8', error => {
     if (error) throw error;
