@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8091d4c-696e-4059-9429-07b0b80e641c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/JSONprocessing/importHealthJSON.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/JSONprocessing/readAllFiles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/database.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/models/HRate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/JSONprocessing/readFolder.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/JSONprocessing/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/JSONprocessing/test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/JSONprocessing/test2.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/JSONprocessing/importHealthJSON.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/JSONprocessing/importHealthJSON.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/JSONprocessing/readAllFiles.js" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -75,8 +75,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="npm.npm start">
+  <component name="RunManager" selected="Node.js.test2.js">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="importHealthJSON.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/server/JSONprocessing/importHealthJSON.js" working-dir="$PROJECT_DIR$/server/JSONprocessing">
+      <method v="2" />
+    </configuration>
+    <configuration name="readFolder.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/server/JSONprocessing/readFolder.js" working-dir="$PROJECT_DIR$/server/JSONprocessing">
+      <method v="2" />
+    </configuration>
+    <configuration name="test2.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/server/JSONprocessing/test2.js" working-dir="$PROJECT_DIR$/server/JSONprocessing">
+      <method v="2" />
+    </configuration>
+    <configuration name="test.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/server/JSONprocessing/test.js" working-dir="$PROJECT_DIR$/server/JSONprocessing">
       <method v="2" />
     </configuration>
     <configuration name="npm start" type="js.build_tools.npm">
@@ -89,6 +101,14 @@
       <envs />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.test2.js" />
+        <item itemvalue="Node.js.test.js" />
+        <item itemvalue="Node.js.importHealthJSON.js" />
+        <item itemvalue="Node.js.readFolder.js" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -100,7 +120,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1570014588648</updated>
-      <workItem from="1570014592384" duration="2782000" />
+      <workItem from="1570014592384" duration="2807000" />
+      <workItem from="1570428317128" duration="10322000" />
     </task>
     <task id="LOCAL−00001" summary="Initial structure">
       <created>1570014874678</created>
@@ -108,7 +129,13 @@
       <option name="presentableId" value="LOCAL−00001" />
       <updated>1570014874678</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL−00002" summary="Initial structure">
+      <created>1570018083657</created>
+      <option name="number" value="LOCAL−00002" />
+      <option name="presentableId" value="LOCAL−00002" />
+      <updated>1570018083657</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,7 +146,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
