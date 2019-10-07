@@ -1,51 +1,22 @@
 const fs = require('fs');
-const readFiles = require('./readFilesAsync');
-
 const directory = 'C:\\Users\\19116304\\IdeaProjects\\healthproject\\server\\JSONprocessing\\test\\';
-const data = {}
 
-async function main() {
-    await readFiles(directory, function(filename, content) {
-        data[filename] = content;
-        console.log(data)
-    }, function(err) {
-        throw err;
-    });
+let data = [];
+const filedata = [];
+const filenames = fs.readdirSync(directory, 'utf-8');
 
-    fs.writeFile('test.txt', JSON.stringify(data), 'utf-8', error => {
-        if (error) throw error;
-        console.log('Data saved to test file')
-    });
-}
+filenames.forEach(filename => {
+    const file = fs.readFileSync(directory + filename, 'utf-8');
 
-main()
+    // console.log(JSON.parse(file))
 
-/*
-readFiles(directory, function(filename, content) {
-    data[filename] = content;
+    data = filedata.concat(file);
     console.log(data)
-}, function(err) {
-    throw err;
 });
 
-console.log(data)
-
-fs.writeFile('test.txt', JSON.stringify(data), 'utf-8', error => {
-    if (error) throw error;
-    console.log('Data saved to test file')
-});*/
-
-/*fs.writeFile('test.txt', JSON.stringify(data), 'utf-8', error => {
-    if (error) throw error;
-    console.log('Data saved to test file')
-});*/
 
 
-/*
+// console.log(data)
+// console.log(filedata)
+// console.log(filenames)
 
-.then(data => {
-    fs.writeFile('test.txt', JSON.stringify(data), 'utf-8', error => {
-        if (error) throw error;
-        console.log('Data saved to test file')
-    })
-*/
