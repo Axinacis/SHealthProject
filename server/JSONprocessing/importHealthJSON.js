@@ -1,10 +1,15 @@
-const fs = require('fs');
-const readFiles = require('./readFilesS');
+const readFiles = require('./readFiles');
 
-const directory = 'C:\\Users\\19116304\\Shealth\\hrtest\\';
+// const dir = 'C:\\Users\\19116304\\Shealth\\hrtest\\';
 
-const data = readFiles(directory);
-const out = JSON.stringify(data);
+function importHealtJSON(dir) {
+    const objectArray = readFiles(dir);
+    return objectArray
+}
 
-fs.writeFileSync('test.txt', out, 'utf-8')
-console.log('Data saved to test file')
+module.exports = importHealtJSON;
+
+// const out = JSON.stringify(data);
+//
+// fs.writeFileSync('test.txt', out, 'utf-8')
+// console.log('Data saved to test file')

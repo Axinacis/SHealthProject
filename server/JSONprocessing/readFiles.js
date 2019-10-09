@@ -1,8 +1,7 @@
 const fs = require('fs');
 
 function readFiles(dirname) {
-    // const filedata = {}
-    const objJSON = [{"":""}]
+    const objJSON = [{}]
     const filenames = fs.readdirSync(dirname, 'utf-8');
 
     filenames.forEach( filename => {
