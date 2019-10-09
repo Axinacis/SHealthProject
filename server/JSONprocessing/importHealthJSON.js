@@ -8,4 +8,3 @@ const out = JSON.stringify(data);
 
 fs.writeFileSync('test.txt', out, 'utf-8')
 console.log('Data saved to test file')
-

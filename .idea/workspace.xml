@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d8091d4c-696e-4059-9429-07b0b80e641c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/JSONprocessing/importHealthJSON.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/JSONprocessing/importHealthJSON.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/JSONprocessing/readFilesS.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/JSONprocessing/readFilesS.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/JSONprocessing/test2.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/JSONprocessing/test2.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -70,7 +72,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.test2.js">
+  <component name="RunManager" selected="Node.js.importHealthJSON.js">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
@@ -101,9 +103,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.importHealthJSON.js" />
         <item itemvalue="Node.js.test2.js" />
         <item itemvalue="Node.js.jsonConcat.js" />
-        <item itemvalue="Node.js.importHealthJSON.js" />
         <item itemvalue="Node.js.test3.js" />
         <item itemvalue="Node.js.test.js" />
       </list>
@@ -120,7 +122,8 @@
       <option name="presentableId" value="Default" />
       <updated>1570014588648</updated>
       <workItem from="1570014592384" duration="2807000" />
-      <workItem from="1570428317128" duration="22695000" />
+      <workItem from="1570428317128" duration="23031000" />
+      <workItem from="1570600596682" duration="1356000" />
     </task>
     <task id="LOCAL−00001" summary="Initial structure">
       <created>1570014874678</created>
@@ -146,7 +149,13 @@
       <option name="presentableId" value="LOCAL−00004" />
       <updated>1570443255275</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL−00005" summary="synchronous read/write working">
+      <created>1570452091685</created>
+      <option name="number" value="LOCAL−00005" />
+      <option name="presentableId" value="LOCAL−00005" />
+      <updated>1570452091685</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
